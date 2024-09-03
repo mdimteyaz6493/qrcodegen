@@ -1,0 +1,85 @@
+footer{
+    height: 250px;
+    background-color:#172b4c;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+    padding: 0px 100px;
+}
+footer .p1{
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 40px;
+    gap: 10px;
+}
+footer .p1 span:nth-child(1){
+   font-size: 2rem;
+   color: rgb(196, 196, 196);
+   font-weight: 600;
+}
+footer .p1 span:nth-child(2){
+    font-size: 1.05rem;
+    width: 80%;
+    color: rgb(196, 196, 196);
+    line-height: 30px;
+    font-weight: 300;
+ }
+ footer .p1 span:nth-child(3){
+    background-color: green;
+   padding: 10px 20px;
+   width: 100px;
+   cursor: pointer;
+   font-weight: 500;
+   color: white;
+  }
+ 
+ footer .p2{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    justify-content: center;
+    padding: 20px;
+    gap: 10px;
+    font-size: 1.2rem;
+    color: rgb(196, 196, 196);
+}
+
+@media only screen and (max-width: 600px) {
+    footer{
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        padding: 50px 10px;
+    }
+    footer .p1{
+        width: 100%;
+        height: 50%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 20px 10px;
+        gap: 10px;
+        text-align: center;
+    }
+
+    footer .p1 span:nth-child(2){
+        width: 100%;
+     }
+     footer .p2{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        height: 100%;
+        justify-content: center;
+        text-align: center;
+        padding: 20px 10px;
+        gap: 10px;
+        font-size: 1.2rem;
+        color: rgb(196, 196, 196);
+    } 
+}
